@@ -1,0 +1,13 @@
+1580585345a:1:{s:9:"topic.htm";a:11:{s:8:"fileName";s:9:"topic.htm";s:7:"content";s:249:"title = "Topic"
+url = "/topic/:slug"
+layout = "default"
+description = "View a forum topic."
+is_hidden = 0
+
+[forumTopic]
+slug = "{{ :slug }}"
+postsPerPage = 20
+memberPage = "channel"
+channelPage = "channel"
+==
+{% component 'forumTopic' %}";s:5:"mtime";i:1580579213;s:6:"markup";s:28:"{% component 'forumTopic' %}";s:4:"code";N;s:5:"title";s:5:"Topic";s:3:"url";s:12:"/topic/:slug";s:6:"layout";s:7:"default";s:11:"description";s:19:"View a forum topic.";s:9:"is_hidden";s:1:"0";s:10:"forumTopic";a:4:{s:4:"slug";s:11:"{{ :slug }}";s:12:"postsPerPage";s:2:"20";s:10:"memberPage";s:7:"channel";s:11:"channelPage";s:7:"channel";}}}

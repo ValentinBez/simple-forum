@@ -1,0 +1,7 @@
+1580585345a:1:{s:9:"about.htm";a:10:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:129:"title = "About"
+url = "/about"
+layout = "default"
+description = "About us page."
+is_hidden = 0
+==
+{% partial 'jumbotron' %}";s:5:"mtime";i:1580582391;s:6:"markup";s:25:"{% partial 'jumbotron' %}";s:4:"code";N;s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:11:"description";s:14:"About us page.";s:9:"is_hidden";s:1:"0";}}

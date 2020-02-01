@@ -1,0 +1,30 @@
+title = "Register"
+url = "/register"
+layout = "default"
+description = "Create a new account"
+is_hidden = 0
+
+[account]
+redirect = "forum"
+paramCode = "code"
+forceSecure = 0
+==
+{% if not user %}
+
+    <div class="row">
+    
+        <div style="width:50%;margin:0 auto;">
+            {% partial account ~ '::register' %}
+        </div>
+
+    </div>
+
+{% else %}
+
+    {% partial account ~ '::activation_check' %}
+
+    {% partial account ~ '::update' %}
+
+    {% partial account ~ '::deactivate_link' %}
+
+{% endif %}

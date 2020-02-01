@@ -1,0 +1,30 @@
+title = "Login"
+url = "/login"
+layout = "default"
+is_hidden = 0
+
+[account]
+redirect = "forum"
+paramCode = "code"
+forceSecure = 0
+==
+{% if not user %}
+
+    <div class="row">
+
+        <div style="width:50%;margin:0 auto;">
+            <h3>Sign in</h3>
+            {% partial account ~ '::signin' %}
+        </div>
+
+    </div>
+
+{% else %}
+
+    {% partial account ~ '::activation_check' %}
+
+    {% partial account ~ '::update' %}
+
+    {% partial account ~ '::deactivate_link' %}
+
+{% endif %}

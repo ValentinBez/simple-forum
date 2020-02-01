@@ -1,0 +1,11 @@
+1580585345a:1:{s:9:"forum.htm";a:10:{s:8:"fileName";s:9:"forum.htm";s:7:"content";s:185:"title = "Forum"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[forumChannels]
+memberPage = "forum"
+channelPage = "channel"
+topicPage = "topic"
+==
+{% component 'forumChannels' %}";s:5:"mtime";i:1580579167;s:6:"markup";s:31:"{% component 'forumChannels' %}";s:4:"code";N;s:5:"title";s:5:"Forum";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:13:"forumChannels";a:3:{s:10:"memberPage";s:5:"forum";s:11:"channelPage";s:7:"channel";s:9:"topicPage";s:5:"topic";}}}

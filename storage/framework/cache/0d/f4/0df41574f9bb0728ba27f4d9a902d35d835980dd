@@ -1,0 +1,19 @@
+1580584342a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:266:"description = "Footer"
+==
+<section id="footer" class="m-b-3">
+    <footer class="page-footer font-small blue fixed-bottom">
+    
+      <div class="footer-copyright text-center py-3">
+          2020 Copyright: Bine
+      </div>
+    
+    </footer>
+</section>";s:5:"mtime";i:1580583738;s:6:"markup";s:238:"<section id="footer" class="m-b-3">
+    <footer class="page-footer font-small blue fixed-bottom">
+    
+      <div class="footer-copyright text-center py-3">
+          2020 Copyright: Bine
+      </div>
+    
+    </footer>
+</section>";s:4:"code";N;s:11:"description";s:6:"Footer";}}

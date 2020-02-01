@@ -1,0 +1,18 @@
+1580579123a:1:{s:10:"author.htm";a:9:{s:8:"fileName";s:10:"author.htm";s:7:"content";s:405:"title = "author"
+url = "/author"
+layout = "default"
+is_hidden = 0
+==
+{% put jumbotron %}
+  <h1 class="display-3">Hambern</h1>
+  <p class="lead">The template is created by Mattias "Hambern" Hamberg</p>
+  <p>Please visit my homepage at <a href="http://hambergmedia.se">hambergmedia.se</a></p>
+{% endput %}
+
+<div data-type="youtube" data-video-id="Bf4HAse1DOQ" data-plyr='{"autoplay":true}'></div>";s:5:"mtime";i:1580499524;s:6:"markup";s:331:"{% put jumbotron %}
+  <h1 class="display-3">Hambern</h1>
+  <p class="lead">The template is created by Mattias "Hambern" Hamberg</p>
+  <p>Please visit my homepage at <a href="http://hambergmedia.se">hambergmedia.se</a></p>
+{% endput %}
+
+<div data-type="youtube" data-video-id="Bf4HAse1DOQ" data-plyr='{"autoplay":true}'></div>";s:4:"code";N;s:5:"title";s:6:"author";s:3:"url";s:7:"/author";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
